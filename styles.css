@@ -193,7 +193,6 @@ p {
 @media (min-width: 80rem) {
     .main-component {
         width: clamp(1024px, 68vw, 70rem);
-        border-radius: 1rem;
     }
 
     .main-component_container {
@@ -202,6 +201,10 @@ p {
         grid-template-rows: 1fr;
         column-gap: 2rem;
         border-radius: 1rem;
+    }
+
+    .container_fieldset input[type="text"] {
+        border-radius: 12px;
     }
 
     .select-tip_btn-tips {
