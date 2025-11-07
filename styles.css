@@ -190,3 +190,21 @@ p {
     color: var(--grey-400);
 }
 
+@media (min-width: 80rem) {
+    .main-component {
+        width: clamp(1024px, 68vw, 70rem);
+        border-radius: 1rem;
+    }
+
+    .main-component_container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        column-gap: 2rem;
+        border-radius: 1rem;
+    }
+
+    .select-tip_btn-tips {
+        border-radius: 12px;
+    }
+}
