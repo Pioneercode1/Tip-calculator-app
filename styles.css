@@ -179,8 +179,9 @@ p {
 }
 
 .container_tip-amount span {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color: var(--green-primary);
+    text-align: end;
 }
 
 .container_tip-amount #span-person {
