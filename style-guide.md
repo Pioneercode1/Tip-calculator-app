@@ -13,22 +13,22 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Green 400: hsl(172, 67%, 45%)
+--green-primary: hsl(172, 67%, 45%);
 
 ### Neutral
 
-- Green 900: hsl(183, 100%, 15%)
-- Grey 500: hsl(186, 14%, 43%)
-- Grey 400: hsl(184, 14%, 56%)
-- Grey 200: hsl(185, 41%, 84%)
-- Grey 50: hsl(189, 47%, 97%)
-- White: hsl(0, 100%, 100%)
+--green-900: hsl(183, 100%, 15%);
+--grey-500: hsl(186, 14%, 43%);
+--grey-400: hsl(184, 14%, 56%);
+--grey-200: hsl(185, 41%, 84%);
+--grey-50: hsl(189, 47%, 97%);
+--white: hsl(0, 100%, 100%);
 
 ## Typography
 
 ### Body Copy
 
-- Font size (form inputs): 24px
+--font-size-form-inputs: 24px;
 
 ### Font
 
