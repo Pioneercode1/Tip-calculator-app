@@ -20,7 +20,7 @@ function calculateTip() {
     }
 	
     if (people === 0) {
-        people = 1; 
+        people = 1;
     }
 	
     const totalTip = (bill * tipPercent) / 100;
@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         e.preventDefault();
         billInput.value = 0;
-        peopleInput.value = 0;
+        peopleInput.value = 1;
 	
         tipButtons.forEach(btn => btn.classList.remove('active'));
 		

@@ -87,6 +87,22 @@ input[type="text"]:focus {
     outline: 2px solid var(--green-primary);
 }
 
+#text-bill {
+    background-image: url('./images/icon-person.svg');
+    background-repeat: no-repeat;
+    background-position: left 10px center;
+    background-size: 14px;
+    padding-left: 35px;
+}
+
+#text-number-people {
+    background-image: url('./images/icon-dollar.svg');
+    background-repeat: no-repeat;
+    background-position: left 10px center;
+    background-size: 14px;
+    padding-left: 35px;
+}
+
 .container_fieldset label,
 p {
     padding: 0.1em;
@@ -205,6 +221,10 @@ p {
 @media (min-width: 80rem) {
     .main-component {
         width: clamp(960px, 65vw, 70rem);
+    }
+
+    .main-component h1 {
+        margin-block-end: 3rem;
     }
 
     .main-component_container {
