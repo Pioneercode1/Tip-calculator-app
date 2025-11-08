@@ -18,10 +18,10 @@
     <h1>SPLI<br>TTER</h1>
     <article class="main-component_container">
       <div>
-        <fieldset class="container_field-text-bill container_fieldset">
+        <fieldset class="container_field-text-bill container_fieldset" form="form1">
           <label for="text-bill">Bill</label>
           <br>
-          <input type="text" id="text-bill" required value="0">
+          <input type="text" id="text-bill" required value="0" form="form1">
         </fieldset>
 
         <div>
@@ -33,28 +33,29 @@
             <button class="select-tip_btn-tips" id="btn-tip-25" type="button">25%</button>
             <button class="select-tip_btn-tips" id="btn-tip-50" type="button">50%</button>
             <input class="select-tip_btn-tips" id="text-tip-custom" type="text" value="Custom"
-              title="Custom tip percentage">
+              title="Custom tip percentage" form="form1">
           </div>
         </div>
 
-        <fieldset class="container_field-number-people container_fieldset">
+        <fieldset class="container_field-number-people container_fieldset" form="form1">
           <label for="text-number-people">Number of People</label>
           <br>
-          <input type="text" id="text-number-people" required value="0">
+          <input type="text" id="text-number-people" required value="0" form="form1">
         </fieldset>
       </div>
 
-      <form class="container_tip-amount">
-        <p id="p-tip-amount">Tip Amount<br><span id="span-person">/ person</span></p>
-        <p id="p-total-person">Total<br><span id="span-person">/ person</span></p>
+      <form id="form1" class="container_tip-amount">
+        <p id="p-tip-amount">Tip Amount<br><span id="span-person-1" class="span-person">/ person</span></p>
+        <p id="p-total-person">Total<br><span id="span-person-2" class="span-person">/ person</span></p>
         <span id="span-tip-amount">4.27</span>
         <span id="span-total-person">32.79</span>
-        <input id="text-total-person" type="reset" class="select-tip_btn-tips" value="Reset">
+        <input id="text-total-person" type="reset" class="select-tip_btn-tips" value="Reset" form="form1">
       </form>
 
     </article>
   </section>
 
 </body>
+<script src="./main.js"></script>
 
 </html>
